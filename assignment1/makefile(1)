@@ -1,0 +1,6 @@
+math.o: math.h  math.cpp
+    g++ -c  math.cpp
+
+a:  math.h  math.o  main.cpp
+    g++ math.o  main.cpp -o myoutput    
+    

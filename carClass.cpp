@@ -10,6 +10,7 @@ class Car{
 };
 void print(Car c){
     cout<<c.name<<" "<<c.price<<"   "<<c.seat<<"  "<<c.type<<endl;
+    
 }
 int main(){
     Car c1;
@@ -19,7 +20,6 @@ int main(){
     c1.type="suv";
 
 Car c2;
-
     c2.name ="swift";
     c2.price=70222;
     c2.seat=4;
